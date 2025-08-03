@@ -1,0 +1,41 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Guilty Gear Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Guilty Gear Form</h1>
+    <p id="description">Fill out this form completely!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Enter your Name:<input id="name" type="text" label="name-label" placeholder="bob" required/></label>
+        <label id="email-label">Enter your Email:<input id="email" type="email" label="text-label"placeholder="123@gmail.com" required/></label>
+          <label id="number-label">How many years have you played Guilty Gear Strive?:<input id="number" type="number" min="0" max="4" placeholder="0"required/></label>
+      </fieldset>
+      <fieldset>
+        <legend>Select what kind of player you are:</legend>
+        <label for="casual-type"><input id="casual-type" type="radio" name="player-type" value="off" checked/>Casual</label>
+        <label for="competitive-type"><input id="competitive-type" type="radio" name="player-type" class="inline" value="off" />Competitive</label> 
+      </fieldset>
+      <fieldset>
+        <label>Why do you like Guilty Gear?
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">The game is mechanically fun</option>
+            <option value="2">The game is competively fun</option>
+            <option value="3">The characters are appealing</option>
+            <option value="4">I don't like guilty gear</option>
+          </select>
+        </label>
+        <label class="inline" for="playstyle">What's your playstyle?:<textarea  id="playstyle-textarea" name="playstyle" placeholer="My playstyle is..." rows="3" cols="40"></textarea></label>
+        <label for="end-satisfaction" >I enjoyed the survey's questions<input type="checkbox" id="end-satisfaction" value ="question-enjoy"/></label>
+        <label for="end-satisfaction" >I enjoyed the survey's look<input type="checkbox" id="end-satisfaction"] value ="look-enjoy"/></label>
+        <label for="end-satisfaction" >I enjoyed the survey's format<input type="checkbox" id="end-satisfaction" value ="format-enjoy"/></label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit"/>  
+    </form>
+  </body>
+
+</html>
