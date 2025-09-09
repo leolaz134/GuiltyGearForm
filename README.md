@@ -3,4 +3,4 @@
   alt = "Guilty Gear Form"
   />
 
-Uses basic html and CSS programming principles and concepts from freecodeacademy in order to build a website form related to the guilty gear franchise.
+An aesthetically pleasing form designed with Html and CSS asking questions about the user's experience with the Guily Gear Strive game.
