@@ -1,5 +1,5 @@
 <img
-  src = "https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=Guilty%20Gear%20Form&animation=fadeIn&fontColor=0"
+  src = "https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=Guilty%20Gear%20Form&animation=fadeIn&fontColor=FFFFFF"
   alt = "Guilty Gear Form"
   />
 
